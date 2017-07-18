@@ -1,0 +1,10 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# /dev/sda5
+UUID=7cc9bce5-b55b-4d41-8370-e7b44da1cf3e	/         	ext4      	rw,relatime,data=ordered	0 1
+
+# /swapfile
+/swapfile					none      	swap      	defaults  	0 0
+
